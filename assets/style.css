@@ -35,7 +35,7 @@ body {
 
 .nav a {
 	text-decoration: none;
-	color: #000
+	color: #000;
 }
 
 .social-link img {
@@ -101,7 +101,7 @@ body {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
+	color: #000;
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
@@ -118,6 +118,9 @@ body {
 	display: block;
 	padding-bottom: 100%;
 
+}
+.lightboxImage { 
+	padding-left: 45px;
 }
 .gallery-item {
 	position: absolute;
@@ -188,6 +191,7 @@ body {
 	flex-direction: column;
 	justify-content: space-between;
 	z-index: 1;
+	list-style-type: none;
 }
 
 #contact {
@@ -288,7 +292,7 @@ input[type="submit"] {
 		width: 100%;
 		max-width: 100%;
 		height: auto;
-		margin: 2em 0
+		margin: 2em 0;
 	}
 	.service__description{
 		margin-bottom: 1em;
